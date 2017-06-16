@@ -5,6 +5,9 @@ h1 {
     font-family: Verdana;
     color: #80ced6
 }
-.friends p {
-    background-color:#618685;
+.friends, p {
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: bisque;
+    font-size: medium;
 }

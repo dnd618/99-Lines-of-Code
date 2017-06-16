@@ -1,20 +1,21 @@
-var bottles;
+var lines;
 for (counter = 99; counter >= 1; counter = counter - 1) 
 {
     if (counter == 1) {
-        bottles = 'friend';
+        lines = 'line';
     } else {
-        bottles = 'friends';
+        lines = 'lines';
     }
-    console.log(counter+" "+friends+" of codes in the file.");
+    console.log(counter+" "+lines+" of code in the file.");
     if (counter < 99) {
         console.log("");
-        console.log(counter+" "+friends+" of of codes in the file.);
+        console.log(counter+" "+lines+" of code in the file.");
     }
-    console.log(counter+" "+friends+" of beer.");
-    console.log("Take one down.");
-    console.log("Pass it around.");
+    console.log(counter+" "+lines+" of code.");
+    console.log("strikes one out.");
+    console.log("clears it all out.");
     if (counter == 1) {
-        console.log("No lines of code on the wall.");
+        console.log("No more lines of code in the file.");
     }
 }
+ 
